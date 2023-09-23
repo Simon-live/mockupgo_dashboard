@@ -1,5 +1,5 @@
 {
-  "apiServer": "http://localhost:3002",
-  "crawlerServer": "http://localhost:3005",
-  "contentPath": "http://localhost:3002/content"
+  "apiServer": "https://api.mockupgo.com",
+  "crawlerServer": "https://crawler.mockupgo.com",
+  "contentPath": "https://api.mockupgo.com/content"
 }
