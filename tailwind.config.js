@@ -7,12 +7,36 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        themeDarkAuto: {
+          light: '#0f172a',
+          DEFAULT: '#0f172a',
+          dark: '#f8fafc',
+        },
+        themeLightAuto: {
+          light: '#f8fafc',
+          DEFAULT: '#f8fafc',
+          dark: '#0f172a',
+        },
+        theme: {
+          blue: '#2733ea',
+          pink: '#ff6174',
+        },
+      },
+      fontFamily: {
+        sans: ['Lexend', 'Noto Sans SC', 'sans-serif'],
       },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+    function ({ addBase }) {
+      addBase({
+        '.scroll-hidden::-webkit-scrollbar': {
+          display: 'none',
+        },
+      });
+    },
+  ],
+};

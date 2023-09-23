@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "title": "Dashboard",
+      "data": [
+        {
+          "title": "Overview",
+          "icon": "fa-solid fa-square-poll-vertical",
+          "path": "/"
+        }
+      ]
+    },
+    {
+      "title": "Contents",
+      "data": [
+        {
+          "title": "Resource",
+          "icon": "fa-solid fa-box-open",
+          "path": "/resource"
+        },
+        {
+          "title": "Category",
+          "icon": "fa-solid fa-boxes-stacked",
+          "path": "/category"
+        },
+        {
+          "title": "Tag",
+          "icon": "fa-solid fa-tags",
+          "path": "/tag"
+        },
+        {
+          "title": "Collection",
+          "icon": "fa-solid fa-circle-nodes",
+          "path": "/collection"
+        }
+      ]
+    },
+    {
+      "title": "Data Source",
+      "data": [
+        {
+          "title": "Supplier",
+          "icon": "fa-solid fa-copyright",
+          "path": "/supplier"
+        },
+        {
+          "title": "Crawler",
+          "icon": "fa-solid fa-spider",
+          "path": "/crawler"
+        }
+      ]
+    },
+    {
+      "title": "Setting",
+      "data": [
+        {
+          "title": "Logout",
+          "icon": "fa-solid fa-right-from-bracket",
+          "path": "/logout"
+        }
+      ]
+    }
+  ]
+}
