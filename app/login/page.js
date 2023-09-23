@@ -62,14 +62,14 @@ const Login = () => {
           <input
             className="w-full p-3 bg-slate-100 rounded-xl text-sm placeholder:font-light placeholder:text-slate-300"
             type="text"
-            placeholder="Username"
+            placeholder="Username (test: admin)"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <input
             className="w-full p-3 bg-slate-100 rounded-xl text-sm placeholder:font-light placeholder:text-slate-300"
             type="password"
-            placeholder="Password"
+            placeholder="Password (test: k123)"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
